@@ -1,0 +1,634 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #002d5f;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+}
+header .leftsidenavbar {
+  display: flex;
+  margin-left: 70px;
+}
+header .leftsidenavbar ul, header .leftsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 1.1em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .leftsidenavbar ul .dropdown-1, header .leftsidenavbar li .dropdown-1 {
+  display: none;
+  background-color: #002d5f;
+  margin: 25px -150px;
+  z-index: 1;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  transition: 2s;
+}
+header .leftsidenavbar ul .dropdown-1 ul, header .leftsidenavbar ul .dropdown-1 li, header .leftsidenavbar li .dropdown-1 ul, header .leftsidenavbar li .dropdown-1 li {
+  list-style: none;
+  color: white;
+  margin: 40px;
+  text-decoration: none;
+}
+header .leftsidenavbar ul .dropdown-1 ul a, header .leftsidenavbar ul .dropdown-1 li a, header .leftsidenavbar li .dropdown-1 ul a, header .leftsidenavbar li .dropdown-1 li a {
+  text-decoration: none;
+  color: gray;
+}
+header .leftsidenavbar ul .dropdown-1 ul a:hover, header .leftsidenavbar ul .dropdown-1 li a:hover, header .leftsidenavbar li .dropdown-1 ul a:hover, header .leftsidenavbar li .dropdown-1 li a:hover {
+  color: white;
+}
+header .leftsidenavbar ul ul, header .leftsidenavbar ul li:hover .dropdown-1, header .leftsidenavbar li ul, header .leftsidenavbar li li:hover .dropdown-1 {
+  display: inline;
+  z-index: 1;
+}
+header .leftsidenavbar ul ul ul, header .leftsidenavbar ul ul li, header .leftsidenavbar ul li:hover .dropdown-1 ul, header .leftsidenavbar ul li:hover .dropdown-1 li, header .leftsidenavbar li ul ul, header .leftsidenavbar li ul li, header .leftsidenavbar li li:hover .dropdown-1 ul, header .leftsidenavbar li li:hover .dropdown-1 li {
+  margin-left: 45%;
+}
+header .rightsidenavbar {
+  display: flex;
+  position: sticky;
+}
+header .rightsidenavbar ul, header .rightsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 0.99em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .rightsidenavbar ul i, header .rightsidenavbar li i {
+  font-size: 1.5em;
+  margin: 12px 50px;
+  cursor: pointer;
+}
+
+.secondnavbar .secondheader {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  z-index: -1;
+}
+.secondnavbar .secondheader .secondleftsidenavbar {
+  display: flex;
+  margin-left: 60px;
+}
+.secondnavbar .secondheader .secondleftsidenavbar ul, .secondnavbar .secondheader .secondleftsidenavbar li {
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  font-size: 1.1em;
+  margin: 10px 0px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.secondnavbar .secondheader .secondrightsidenavbar {
+  display: flex;
+  margin-left: -50px;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a {
+  text-decoration: none;
+  color: #002d5f;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a:hover {
+  opacity: 50%;
+}
+.secondnavbar .secondheader .secondrightsidenavbar ul, .secondnavbar .secondheader .secondrightsidenavbar li {
+  list-style: none;
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.mainfirstcontainer img {
+  width: 100%;
+  height: 700px;
+}
+.mainfirstcontainer #leftclick {
+  font-size: 3.5em;
+  position: absolute;
+  left: 30px;
+  top: 500px;
+  z-index: 9999;
+  cursor: pointer;
+  color: white;
+}
+.mainfirstcontainer #leftclick:hover {
+  opacity: 50%;
+}
+.mainfirstcontainer #rightclick {
+  font-size: 3.5em;
+  position: absolute;
+  right: 30px;
+  top: 500px;
+  z-index: 9999;
+  cursor: pointer;
+  color: white;
+}
+.mainfirstcontainer #rightclick:hover {
+  opacity: 50%;
+}
+
+.mainsecondcontainer {
+  display: flex;
+  background-color: rgb(230, 230, 255);
+}
+.mainsecondcontainer .mainsecondcontainerleft {
+  margin: auto;
+}
+.mainsecondcontainer .mainsecondcontainerleft h2 {
+  margin: 50px 180px;
+  font-size: 2em;
+  color: #002d5f;
+  cursor: auto;
+  font-weight: bold;
+}
+.mainsecondcontainer .mainsecondcontainerleft div {
+  border: none;
+  width: 800px;
+  height: 120px;
+  margin-left: 170px;
+  margin-bottom: 50px;
+}
+.mainsecondcontainer .mainsecondcontainerleft div img {
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+}
+.mainsecondcontainer .mainsecondcontainerleft div img:hover {
+  transform: scale(1.8);
+  cursor: zoom-in;
+  margin-left: -50px;
+}
+.mainsecondcontainer .mainsecondcontainerleft p {
+  margin-left: 250px;
+  margin-top: -90px;
+  font-size: 1.5em;
+  color: #002d5f;
+  font-weight: 800;
+}
+.mainsecondcontainer .mainsecondcontainerleft div:hover {
+  box-shadow: 2px 2px 2px gray;
+  cursor: pointer;
+}
+
+.mainthirdcontainer {
+  width: 100%;
+  height: 1100px;
+  border: none;
+  display: flex;
+}
+.mainthirdcontainer .mainthirdcontainerleft {
+  width: 50%;
+  height: 100%;
+  background-color: #00254e;
+}
+.mainthirdcontainer .mainthirdcontainerleft h1 {
+  color: white;
+  font-weight: bold;
+  margin: 30px 110px;
+  font-size: 2.5em;
+}
+.mainthirdcontainer .mainthirdcontainerleft div {
+  margin: 20px 110px;
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+}
+.mainthirdcontainer .mainthirdcontainerleft div img {
+  margin: 25px 30px;
+}
+.mainthirdcontainer .mainthirdcontainerleft div h3 {
+  color: #00254e;
+  font-size: 1.1em;
+  margin: 40px -42px;
+}
+.mainthirdcontainer .mainthirdcontainerright {
+  width: 50%;
+  height: 100%;
+  background-color: #002d5f;
+}
+.mainthirdcontainer .mainthirdcontainerright h1 {
+  color: white;
+  font-weight: bold;
+  margin: 30px 110px;
+  font-size: 2.5em;
+}
+.mainthirdcontainer .mainthirdcontainerright h2 {
+  color: gray;
+  font-size: 2em;
+  margin: 20px 50px;
+}
+.mainthirdcontainer .mainthirdcontainerright h3 {
+  color: #00254e;
+  font-size: 1.1em;
+  margin: 40px 130px;
+}
+.mainthirdcontainer .mainthirdcontainerright h4 {
+  margin: 60px -80px;
+  color: gray;
+  opacity: 80%;
+}
+.mainthirdcontainer .mainthirdcontainerright div {
+  margin: 20px 110px;
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+}
+.mainthirdcontainer .mainthirdcontainerright div:hover {
+  cursor: pointer;
+  background-color: rgb(222, 246, 255);
+}
+
+.fourthcontainermap {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.fourthcontainermap img {
+  width: 100%;
+  height: 600px;
+}
+.fourthcontainermap .mapitem-1 {
+  width: 130px;
+  height: 40px;
+  background-color: #002d5f;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding-top: 15px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999;
+  top: -500px;
+  left: 170px;
+}
+.fourthcontainermap .mapitem-1:hover {
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+.fourthcontainermap .mapitem-2 {
+  width: 130px;
+  height: 40px;
+  background-color: #002d5f;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding-top: 15px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999;
+  top: -350px;
+  left: 350px;
+}
+.fourthcontainermap .mapitem-2:hover {
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+.fourthcontainermap .mapitem-3 {
+  width: 100px;
+  height: 30px;
+  background-color: #002d5f;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding-top: 5px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999;
+  top: -620px;
+  left: 770px;
+}
+.fourthcontainermap .mapitem-3:hover {
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+.fourthcontainermap .mapitem-4 {
+  width: 90px;
+  height: 30px;
+  background-color: #002d5f;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding-top: 10px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999;
+  top: -650px;
+  left: 990px;
+}
+.fourthcontainermap .mapitem-4:hover {
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+.fourthcontainermap .mapitem-5 {
+  width: 90px;
+  height: 30px;
+  background-color: #002d5f;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.1em;
+  padding-top: 10px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9999;
+  top: -550px;
+  left: 790px;
+}
+.fourthcontainermap .mapitem-5:hover {
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+.fourthcontainermap .mapdiv {
+  width: 500px;
+  height: 530px;
+  border: solid 2px gray;
+  border: none;
+  position: absolute;
+  z-index: 9999;
+  right: 20px;
+  top: 2850px;
+  background-color: white;
+  display: inline;
+}
+.fourthcontainermap .mapdiv h1 {
+  color: #002d5f;
+  margin: 40px;
+}
+.fourthcontainermap .mapdiv input {
+  width: 300px;
+  height: 50px;
+  margin-left: -10px;
+  border: none;
+}
+.fourthcontainermap .mapdiv i {
+  font-size: 2.3em;
+  color: gray;
+}
+.fourthcontainermap .mapdiv i:hover {
+  color: #002d5f;
+  cursor: pointer;
+}
+.fourthcontainermap .mapdiv h3 {
+  color: #00254e;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.fourthcontainermap .mapdiv button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #002d5f;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 2px 100px;
+  cursor: pointer;
+}
+
+.fifthcontainer {
+  width: 100%;
+  height: 900px;
+  margin-top: -200px;
+  background-color: white;
+  display: flex;
+}
+.fifthcontainer h1 {
+  color: #002d5f;
+  margin: 350px 90px;
+  font-size: 2.5em;
+}
+.fifthcontainer img {
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-left: 30px;
+  border: none;
+}
+.fifthcontainer img:hover {
+  margin-top: 50px;
+  cursor: pointer;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: aquamarine solid 5px;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #002d5f;
+  margin-top: 40px;
+}
+footer .footerfolower {
+  width: 80%;
+  height: 400px;
+  border: none;
+  position: relative;
+  top: -100px;
+  left: 180px;
+  display: flex;
+}
+footer .footerfolower .footerdiv-1 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerfolower .footerdiv-1 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerfolower .footerdiv-1 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 100px;
+  top: -70px;
+}
+footer .footerfolower .footerdiv-1 h3 {
+  color: gray;
+  position: relative;
+  left: 150px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerfolower .footerdiv-1 p {
+  position: relative;
+  left: 140px;
+  color: white;
+}
+footer .footerfolower .footerdiv-1:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+footer .footerdiv-2 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  border-left: none;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerdiv-2 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerdiv-2 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 80px;
+  top: -70px;
+}
+footer .footerdiv-2 h3 {
+  color: gray;
+  position: relative;
+  left: 110px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerdiv-2 p {
+  position: relative;
+  left: 120px;
+  color: white;
+}
+footer .footerdiv-2:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+footer .footerdiv-3 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  border-left: none;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerdiv-3 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerdiv-3 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 80px;
+  top: -70px;
+}
+footer .footerdiv-3 h3 {
+  color: gray;
+  position: relative;
+  left: 110px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerdiv-3 p {
+  position: relative;
+  left: 120px;
+  color: white;
+}
+footer .footerdiv-3:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+footer .footerdiv-4 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  border-left: none;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerdiv-4 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerdiv-4 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 100px;
+  top: -70px;
+}
+footer .footerdiv-4 h3 {
+  color: gray;
+  position: relative;
+  left: 120px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerdiv-4 p {
+  position: relative;
+  left: 130px;
+  color: white;
+}
+footer .footerdiv-4:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+
+.footerprivacy {
+  display: flex;
+}
+.footerprivacy .footerleft {
+  display: flex;
+  margin-left: 170px;
+}
+.footerprivacy .footerleft p {
+  color: white;
+  margin-left: 10px;
+}
+.footerprivacy .footerright {
+  display: flex;
+  margin-left: -30px;
+}
+.footerprivacy .footerright ul, .footerprivacy .footerright li {
+  display: flex;
+  list-style: none;
+  color: white;
+  margin-left: 20px;
+}
+.footerprivacy .footerright ul, .footerprivacy .footerright li:hover {
+  color: #aad2ff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

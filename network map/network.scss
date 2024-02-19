@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// header for all
+
+header{
+    background-color: #002d5f;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    
+    
+    
+    .leftsidenavbar{
+        display: flex;
+        margin-left: 70px;
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            font-size: 1.1em;
+            margin-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
+
+            .dropdown-1{
+                display: none;
+                background-color: #002d5f;
+                margin: 25px -150px;
+                z-index: 1;
+                width: 100%;
+                height: 600px;
+                position: absolute;
+                transition: 2s;
+
+                ul,li{
+                    list-style: none;
+                    color: white;
+                    margin: 40px;
+                    text-decoration: none;
+
+                    a{
+                        text-decoration: none;
+                        color: gray;
+                    }
+
+                    a:hover{
+                        color: white;
+                    }
+                }
+            }
+
+            ul,li:hover .dropdown-1{
+                display: inline;
+                z-index: 1;
+
+                ul,li{
+                    margin-left: 45%;
+                }
+            }
+        }
+
+
+
+    }
+
+    .rightsidenavbar{
+        display: flex;
+        position: sticky;
+        
+
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            font-size: 0.99em;
+            margin-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
+
+            i{
+                font-size: 1.5em;
+                margin: 12px 50px; 
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// second header for all
+
+.secondnavbar{
+    
+
+    .secondheader{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 80px;
+        z-index: -1;
+
+        .secondleftsidenavbar{
+            display: flex;
+            margin-left: 60px;
+
+            ul,li{
+                list-style: none;
+                display: flex;
+                color: #002d5f;
+                font-size: 1.1em;
+                margin: 10px 0px;
+                padding-right: 50px;
+                cursor: pointer;
+            }
+        }
+
+        .secondrightsidenavbar{
+            display: flex;
+            margin-left: -50px;
+
+            a{
+                text-decoration: none;
+                color: #002d5f;
+                
+            }
+
+            a:hover{
+               opacity: 50%; 
+            }
+
+
+            ul,li{
+                list-style: none;
+                list-style: none;
+                display: flex;
+                color: #002d5f;
+                margin-top: 8px;
+                margin-left: 10px;
+                font-size: 1.4em;
+                cursor: pointer;
+            }
+
+          
+        }
+    }
+}
+// third navbar
+
+.thirdnavbar{
+    margin-top: -20px;
+
+
+    .thirdheader{
+        background-color: #00b4e1;
+        height: 40px;
+        z-index: -1;
+
+        .thirdmiddlenavbar{
+            font-size: 0.9em;
+            color: white;
+            margin-left: 200px;
+            padding: 12px;
+
+            ul,li{
+                display: flex;
+                margin-left: 20px;
+                opacity: 80%;
+                font-size: 1.05em;
+                
+
+                ul,li:hover{
+                    opacity: 100%;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// first containe
+
+.firstcontainer{
+    margin: 10px 200px;
+
+    h1{
+        font-size: 3em;
+        font-weight: bold;
+        color: #002d5f;
+    }
+    p{
+        font-size: 1.5em;
+        color: #002d5f;
+    }
+}
+
+// secod container pictures
+
+.secondcontainer{
+    margin: 10px 0px;
+    position: relative;
+    
+    
+
+        img{
+            width: 300px;
+            height: 300px;
+            margin-left: 200px;
+            border-radius: 10px;  
+        }
+    
+
+
+}
+

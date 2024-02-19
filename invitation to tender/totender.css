@@ -1,0 +1,436 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #002d5f;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+}
+header .leftsidenavbar {
+  display: flex;
+  margin-left: 70px;
+}
+header .leftsidenavbar ul, header .leftsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 1.1em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .rightsidenavbar {
+  display: flex;
+  position: sticky;
+}
+header .rightsidenavbar ul, header .rightsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 0.99em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .rightsidenavbar ul i, header .rightsidenavbar li i {
+  font-size: 1.5em;
+  margin: 12px 50px;
+  cursor: pointer;
+}
+
+.secondnavbar .secondheader {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+}
+.secondnavbar .secondheader .secondleftsidenavbar {
+  display: flex;
+  margin-left: 60px;
+}
+.secondnavbar .secondheader .secondleftsidenavbar ul, .secondnavbar .secondheader .secondleftsidenavbar li {
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  font-size: 1.1em;
+  margin: 10px 0px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.secondnavbar .secondheader .secondrightsidenavbar {
+  display: flex;
+  margin-left: -50px;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a {
+  text-decoration: none;
+  color: #002d5f;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a:hover {
+  opacity: 50%;
+}
+.secondnavbar .secondheader .secondrightsidenavbar ul, .secondnavbar .secondheader .secondrightsidenavbar li {
+  list-style: none;
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.thirdnavbar {
+  margin-top: -20px;
+}
+.thirdnavbar .thirdheader {
+  background-color: #b59458;
+  height: 40px;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar {
+  font-size: 0.9em;
+  color: white;
+  margin-left: 200px;
+  padding: 12px;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar ul, .thirdnavbar .thirdheader .thirdmiddlenavbar li {
+  display: flex;
+  margin-left: 20px;
+  opacity: 80%;
+  font-size: 1.05em;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar ul ul, .thirdnavbar .thirdheader .thirdmiddlenavbar ul li:hover, .thirdnavbar .thirdheader .thirdmiddlenavbar li ul, .thirdnavbar .thirdheader .thirdmiddlenavbar li li:hover {
+  opacity: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+.tendermainimg {
+  width: 100%;
+}
+.tendermainimg img {
+  width: 100%;
+}
+
+.firstcontainer {
+  width: 88%;
+  margin: 10px 200px;
+}
+.firstcontainer i {
+  font-size: 3em;
+  color: #002d5f;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.firstcontainer .firstcontainertexts {
+  width: 80%;
+}
+.firstcontainer .firstcontainertexts h1 {
+  margin-top: 10px;
+  color: #002d5f;
+}
+.firstcontainer .firstcontainertexts p {
+  color: #002d5f;
+  font-size: 1.2em;
+}
+.firstcontainer .firstcontainertexts h4 {
+  font-weight: bold;
+  color: aqua;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+.firstcontainer .firstcontainertexts h5 {
+  color: aqua;
+  opacity: 60%;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.secondcontainer {
+  margin: 70px 200px;
+}
+.secondcontainer h2 {
+  color: #002d5f;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.secondcontainer .interset-1 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-1:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+.secondcontainer .interset-2 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-2:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+.secondcontainer .interset-3 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-3:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+.secondcontainer .interset-4 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-4:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+.secondcontainer .interset-5 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-5:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+.secondcontainer .interset-6 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-6:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+.secondcontainer .interset-7 {
+  margin: 20px 0px;
+  font-size: 1.3em;
+  color: #002d5f;
+  width: 15 0px;
+  height: 50px;
+  padding: 10px;
+}
+.secondcontainer .interset-7:hover {
+  background-color: #00b4e1;
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  background-color: #002d5f;
+  margin-top: 200px;
+}
+footer .footerfolower {
+  width: 80%;
+  height: 400px;
+  border: none;
+  position: relative;
+  top: -100px;
+  left: 180px;
+  display: flex;
+}
+footer .footerfolower .footerdiv-1 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerfolower .footerdiv-1 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerfolower .footerdiv-1 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 100px;
+  top: -70px;
+}
+footer .footerfolower .footerdiv-1 h3 {
+  color: gray;
+  position: relative;
+  left: 150px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerfolower .footerdiv-1 p {
+  position: relative;
+  left: 140px;
+  color: white;
+}
+footer .footerfolower .footerdiv-1:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+footer .footerdiv-2 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  border-left: none;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerdiv-2 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerdiv-2 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 80px;
+  top: -70px;
+}
+footer .footerdiv-2 h3 {
+  color: gray;
+  position: relative;
+  left: 110px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerdiv-2 p {
+  position: relative;
+  left: 120px;
+  color: white;
+}
+footer .footerdiv-2:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+footer .footerdiv-3 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  border-left: none;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerdiv-3 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerdiv-3 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 80px;
+  top: -70px;
+}
+footer .footerdiv-3 h3 {
+  color: gray;
+  position: relative;
+  left: 110px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerdiv-3 p {
+  position: relative;
+  left: 120px;
+  color: white;
+}
+footer .footerdiv-3:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+footer .footerdiv-4 {
+  width: 25%;
+  height: 100%;
+  border: solid 1px gray;
+  border-left: none;
+  z-index: 9999;
+  background-color: #002d5f;
+}
+footer .footerdiv-4 i {
+  font-size: 4em;
+  color: white;
+  margin: 70px 145px;
+}
+footer .footerdiv-4 h1 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  left: 100px;
+  top: -70px;
+}
+footer .footerdiv-4 h3 {
+  color: gray;
+  position: relative;
+  left: 120px;
+  top: -60px;
+  font-size: 1.2em;
+}
+footer .footerdiv-4 p {
+  position: relative;
+  left: 130px;
+  color: white;
+}
+footer .footerdiv-4:hover {
+  background-color: #00438f;
+  cursor: pointer;
+}
+
+.footerprivacy {
+  display: flex;
+}
+.footerprivacy .footerleft {
+  display: flex;
+  margin-left: 170px;
+}
+.footerprivacy .footerleft p {
+  color: white;
+  margin-left: 10px;
+}
+.footerprivacy .footerright {
+  display: flex;
+  margin-left: -30px;
+}
+.footerprivacy .footerright ul, .footerprivacy .footerright li {
+  display: flex;
+  list-style: none;
+  color: white;
+  margin-left: 20px;
+}
+.footerprivacy .footerright ul, .footerprivacy .footerright li:hover {
+  color: #aad2ff;
+  cursor: pointer;
+}/*# sourceMappingURL=totender.css.map */

@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #002d5f;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+}
+header .leftsidenavbar {
+  display: flex;
+  margin-left: 70px;
+}
+header .leftsidenavbar ul, header .leftsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 1.1em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .leftsidenavbar ul .dropdown-1, header .leftsidenavbar li .dropdown-1 {
+  display: none;
+  background-color: #002d5f;
+  margin: 25px -150px;
+  z-index: 1;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  transition: 2s;
+}
+header .leftsidenavbar ul .dropdown-1 ul, header .leftsidenavbar ul .dropdown-1 li, header .leftsidenavbar li .dropdown-1 ul, header .leftsidenavbar li .dropdown-1 li {
+  list-style: none;
+  color: white;
+  margin: 40px;
+  text-decoration: none;
+}
+header .leftsidenavbar ul .dropdown-1 ul a, header .leftsidenavbar ul .dropdown-1 li a, header .leftsidenavbar li .dropdown-1 ul a, header .leftsidenavbar li .dropdown-1 li a {
+  text-decoration: none;
+  color: gray;
+}
+header .leftsidenavbar ul .dropdown-1 ul a:hover, header .leftsidenavbar ul .dropdown-1 li a:hover, header .leftsidenavbar li .dropdown-1 ul a:hover, header .leftsidenavbar li .dropdown-1 li a:hover {
+  color: white;
+}
+header .leftsidenavbar ul ul, header .leftsidenavbar ul li:hover .dropdown-1, header .leftsidenavbar li ul, header .leftsidenavbar li li:hover .dropdown-1 {
+  display: inline;
+  z-index: 1;
+}
+header .leftsidenavbar ul ul ul, header .leftsidenavbar ul ul li, header .leftsidenavbar ul li:hover .dropdown-1 ul, header .leftsidenavbar ul li:hover .dropdown-1 li, header .leftsidenavbar li ul ul, header .leftsidenavbar li ul li, header .leftsidenavbar li li:hover .dropdown-1 ul, header .leftsidenavbar li li:hover .dropdown-1 li {
+  margin-left: 45%;
+}
+header .rightsidenavbar {
+  display: flex;
+  position: sticky;
+}
+header .rightsidenavbar ul, header .rightsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 0.99em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .rightsidenavbar ul i, header .rightsidenavbar li i {
+  font-size: 1.5em;
+  margin: 12px 50px;
+  cursor: pointer;
+}
+
+.secondnavbar .secondheader {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  z-index: -1;
+}
+.secondnavbar .secondheader .secondleftsidenavbar {
+  display: flex;
+  margin-left: 60px;
+}
+.secondnavbar .secondheader .secondleftsidenavbar ul, .secondnavbar .secondheader .secondleftsidenavbar li {
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  font-size: 1.1em;
+  margin: 10px 0px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.secondnavbar .secondheader .secondrightsidenavbar {
+  display: flex;
+  margin-left: -50px;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a {
+  text-decoration: none;
+  color: #002d5f;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a:hover {
+  opacity: 50%;
+}
+.secondnavbar .secondheader .secondrightsidenavbar ul, .secondnavbar .secondheader .secondrightsidenavbar li {
+  list-style: none;
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.thirdnavbar {
+  margin-top: -20px;
+}
+.thirdnavbar .thirdheader {
+  background-color: #00b4e1;
+  height: 40px;
+  z-index: -1;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar {
+  font-size: 0.9em;
+  color: white;
+  margin-left: 200px;
+  padding: 12px;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar ul, .thirdnavbar .thirdheader .thirdmiddlenavbar li {
+  display: flex;
+  margin-left: 20px;
+  opacity: 80%;
+  font-size: 1.05em;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar ul ul, .thirdnavbar .thirdheader .thirdmiddlenavbar ul li:hover, .thirdnavbar .thirdheader .thirdmiddlenavbar li ul, .thirdnavbar .thirdheader .thirdmiddlenavbar li li:hover {
+  opacity: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+.firstcontainer {
+  margin: 10px 200px;
+}
+.firstcontainer h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #002d5f;
+}
+.firstcontainer p {
+  font-size: 1.5em;
+  color: #002d5f;
+}
+
+.secondcontainer {
+  margin: 10px 0px;
+  position: relative;
+}
+.secondcontainer img {
+  width: 300px;
+  height: 300px;
+  margin-left: 200px;
+  border-radius: 10px;
+}/*# sourceMappingURL=network.css.map */

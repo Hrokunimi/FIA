@@ -1,0 +1,671 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// header for all
+
+header{
+    background-color: #002d5f;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    
+    
+    
+    .leftsidenavbar{
+        display: flex;
+        margin-left: 70px;
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            font-size: 1.1em;
+            margin-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+
+    }
+
+    .rightsidenavbar{
+        display: flex;
+        position: sticky;
+        
+
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            font-size: 0.99em;
+            margin-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
+
+            i{
+                font-size: 1.5em;
+                margin: 12px 50px; 
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// second header for all
+
+.secondnavbar{
+    
+
+    .secondheader{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 80px;
+
+        .secondleftsidenavbar{
+            display: flex;
+            margin-left: 60px;
+
+            ul,li{
+                list-style: none;
+                display: flex;
+                color: #002d5f;
+                font-size: 1.1em;
+                margin: 10px 0px;
+                padding-right: 50px;
+                cursor: pointer;
+            }
+        }
+
+        .secondrightsidenavbar{
+            display: flex;
+            margin-left: -50px;
+
+            a{
+                text-decoration: none;
+                color: #002d5f;
+                
+            }
+
+            a:hover{
+               opacity: 50%; 
+            }
+
+
+            ul,li{
+                list-style: none;
+                list-style: none;
+                display: flex;
+                color: #002d5f;
+                margin-top: 8px;
+                margin-left: 10px;
+                font-size: 1.4em;
+                cursor: pointer;
+            }
+        }
+    }
+ 
+}
+
+.thirdnavbar{
+    margin-top: -20px;
+
+
+    .thirdheader{
+        background-color: #b59458;
+        height: 40px;
+
+        .thirdmiddlenavbar{
+            font-size: 0.9em;
+            color: white;
+            margin-left: 200px;
+            padding: 12px;
+
+            ul,li{
+                display: flex;
+                margin-left: 20px;
+                opacity: 80%;
+                font-size: 1.05em;
+                
+
+                ul,li:hover{
+                    opacity: 100%;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// main img
+
+
+.organisationmainimg{
+
+    img{
+        width: 100%;
+    }
+}
+
+// first container
+
+.firstcontainer{
+    width: 100%;
+
+
+    .droppedbutton button{
+        background-color: #002d5f;
+        color: white;
+        width: 300px;
+        height: 40px;
+        margin: 10px 300px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .droppedbutton a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    
+    a:hover{
+        background-color: #07abdd;
+    }
+    
+    .droppedbutton .firstcontainerlyst{
+        background-color: #009ecc;
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        left: 300px;
+        top: 617px;
+        min-width: 100px;
+        display: none;
+    
+    }
+
+    .droppedbutton:hover .firstcontainerlyst{
+        display: block;
+        cursor: pointer;
+    }
+
+    // first containe texts
+
+    .firstcomtainertexts{
+        margin-left: 300px;
+        width: 70%;
+
+        h1{
+            color: #002d5f;
+            font-size: 2.2em;
+            font-weight: bold;
+        }
+
+        h3{
+            color: #002d5f;
+            font-size: 1.2em;
+        }
+        p{
+            color: #002d5f;
+            font-size: 1.1em;
+        }
+
+        h2{
+            color: #002d5f;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}
+
+// second container 
+
+.organisationcity{
+    display: flex;
+    margin-top: 50px;
+
+
+    .fiaparis{
+        margin: 10px 300px;
+        font-size: 1.2em;
+        color: #002d5f;
+
+        ul,li{
+            list-style: none;
+            padding-top: 20px;
+        }
+    }
+
+    .fiagrenve{
+        margin: 10px 80px;
+        font-size: 1.2em;
+        color: #002d5f;
+
+        ul,li{
+            list-style: none;
+            padding-top: 20px;
+        }
+    }
+
+    .fiavalleiry{
+        margin: 10px 270px;
+        font-size: 1.2em;
+        color: #002d5f;
+
+        ul,li{
+            list-style: none;
+            padding-top: 20px;
+        }
+    }
+
+    .fialondon{
+        margin: 10px -180px;
+        font-size: 1.2em;
+        color: #002d5f;
+
+        ul,li{
+            list-style: none;
+            padding-top: 20px;
+        }
+
+    }
+}
+
+.organisationimg{
+    width: 80%;
+    margin: 10px 160px;
+
+    img{
+        margin-left: 140px;
+    }
+}
+
+// therd container
+.thirdcontainertexts{
+    font-size: 1.1em;
+    color: #002d5f;
+    margin: 10px 300px;
+    display: flex;
+
+    .text-1{
+        margin: 10px 10px;
+
+        ul,li{
+            margin-top: 10px;
+        }
+    }
+
+    .text-2{
+        margin: 10px 200px;
+
+        ul,li{
+            margin-top: 10px;
+        }
+    }
+
+    .text-3{
+        margin: 10px 10px;
+
+        ul,li{
+            margin-top: 10px;
+        }
+    }
+
+}
+
+// fourth container
+
+.griddiv{
+    width: 100%;
+    margin-top: 30px;
+
+    .top{
+        display: flex;
+        margin-left: 280px;
+
+        .item-1{
+            width: 400px;
+            height: 80px;
+            background-color: #07abdd;
+            border: none;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        .item-1:hover{
+            opacity: 80%;
+            cursor: pointer;
+        }
+        .item-2{
+            width: 400px;
+            height: 80px;
+            background-color: #07abdd;
+            border: none;
+            margin-left: 10px;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        .item-2:hover{
+            opacity: 80%;
+            cursor: pointer;
+        }
+        .item-3{
+            width: 400px;
+            height: 80px;
+            background-color: #07abdd;
+            border: none;
+            margin-left: 10px;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        .item-3:hover{
+            opacity: 80%;
+            cursor: pointer;
+        }
+    }
+
+    .buttom{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 280px;
+
+        .item-4{
+            width: 400px;
+            height: 80px;
+            background-color: #07abdd;
+            border: none;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        .item-4:hover{
+            opacity: 80%;
+            cursor: pointer;
+        }
+        .item-5{
+            width: 400px;
+            height: 80px;
+            background-color: #07abdd;
+            border: none;
+            margin-left: 10px;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        .item-5:hover{
+            opacity: 80%;
+            cursor: pointer;
+        }
+        .item-6{
+            width: 400px;
+            height: 80px;
+            background-color: #07abdd;
+            border: none;
+            margin-left: 10px;
+            color: white;
+            font-size: 1.5em;
+            padding: 25px;
+            border-radius: 5px;
+        }
+        .item-6:hover{
+            opacity: 80%;
+            cursor: pointer;
+        }
+    }
+}
+
+// footer
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #002d5f;
+    margin-top: 200px;
+    
+
+    .footerfolower{
+        width: 80%;
+        height: 400px;
+        border: none ;
+        position: relative;
+        top: -100px;
+        left: 180px;
+        display: flex;
+
+
+
+
+        .footerdiv-1{
+            width: 25%;
+            height: 100%;
+            border: solid 1px gray;
+            z-index: 9999;
+            background-color: #002d5f;
+
+
+            i{
+                font-size: 4em;
+                color: white;
+                margin: 70px 145px;
+            }
+
+            h1{
+                color: white;
+                font-size: 3em;
+                position: relative;
+                left: 100px;
+                top: -70px;
+            }
+
+            h3{
+                color: gray;
+                position: relative;
+                left: 150px;
+                top: -60px;
+                font-size: 1.2em;
+            }
+
+            p{
+                position: relative;
+                left: 140px;
+                color: white;
+            }
+            
+        }
+
+        .footerdiv-1:hover{
+            background-color: #00438f;
+            cursor: pointer;
+        }
+
+
+    }
+
+
+        .footerdiv-2{
+            width: 25%;
+            height: 100%;
+            border: solid 1px gray;
+            border-left: none;
+            z-index: 9999;
+            background-color: #002d5f;
+
+
+            i{
+                font-size: 4em;
+                color: white;
+                margin: 70px 145px;
+            }
+
+            h1{
+                color: white;
+                font-size: 3em;
+                position: relative;
+                left: 80px;
+                top: -70px;
+            }
+
+            h3{
+                color: gray;
+                position: relative;
+                left: 110px;
+                top: -60px;
+                font-size: 1.2em;
+            }
+
+            p{
+                position: relative;
+                left: 120px;
+                color: white;
+            }
+            
+        }
+
+        .footerdiv-2:hover{
+            background-color: #00438f;
+            cursor: pointer;
+        }
+
+
+
+        .footerdiv-3{
+            width: 25%;
+            height: 100%;
+            border: solid 1px gray;
+            border-left: none;
+            z-index: 9999;
+            background-color: #002d5f;
+
+
+            i{
+                font-size: 4em;
+                color: white;
+                margin: 70px 145px;
+            }
+
+            h1{
+                color: white;
+                font-size: 3em;
+                position: relative;
+                left: 80px;
+                top: -70px;
+            }
+
+            h3{
+                color: gray;
+                position: relative;
+                left: 110px;
+                top: -60px;
+                font-size: 1.2em;
+            }
+
+            p{
+                position: relative;
+                left: 120px;
+                color: white;
+            }
+            
+        }
+
+        .footerdiv-3:hover{
+            background-color: #00438f;
+            cursor: pointer;
+        }
+
+
+
+        .footerdiv-4{
+            width: 25%;
+            height: 100%;
+            border: solid 1px gray ;
+            border-left: none;
+            z-index: 9999;
+            background-color: #002d5f;
+
+
+            i{
+                font-size: 4em;
+                color: white;
+                margin: 70px 145px;
+            }
+
+            h1{
+                color: white;
+                font-size: 3em;
+                position: relative;
+                left: 100px;
+                top: -70px;
+            }
+
+            h3{
+                color: gray;
+                position: relative;
+                left: 120px;
+                top: -60px;
+                font-size: 1.2em;
+            }
+
+            p{
+                position: relative;
+                left: 130px;
+                color: white;
+            }
+            
+        }
+
+        .footerdiv-4:hover{
+            background-color: #00438f;
+            cursor: pointer;
+        }
+
+}
+
+.footerprivacy{
+    display: flex;
+    
+    .footerleft{
+        display: flex;
+        margin-left: 170px;
+
+        p{
+            color: white;
+            margin-left: 10px;
+        }
+    }
+
+    .footerright{
+        display: flex;
+        margin-left: -30px;
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            margin-left: 20px;
+
+        }
+
+        ul,li:hover{
+            color: #aad2ff;
+            cursor: pointer;
+        }
+    }
+}

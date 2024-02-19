@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #002d5f;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+}
+header .leftsidenavbar {
+  display: flex;
+  margin-left: 70px;
+}
+header .leftsidenavbar ul, header .leftsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 1.1em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .rightsidenavbar {
+  display: flex;
+  position: sticky;
+}
+header .rightsidenavbar ul, header .rightsidenavbar li {
+  display: flex;
+  list-style: none;
+  color: white;
+  font-size: 0.99em;
+  margin-left: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+header .rightsidenavbar ul i, header .rightsidenavbar li i {
+  font-size: 1.5em;
+  margin: 12px 50px;
+  cursor: pointer;
+}
+
+.secondnavbar .secondheader {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+}
+.secondnavbar .secondheader .secondleftsidenavbar {
+  display: flex;
+  margin-left: 60px;
+}
+.secondnavbar .secondheader .secondleftsidenavbar ul, .secondnavbar .secondheader .secondleftsidenavbar li {
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  font-size: 1.1em;
+  margin: 10px 0px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.secondnavbar .secondheader .secondrightsidenavbar {
+  display: flex;
+  margin-left: -50px;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a {
+  text-decoration: none;
+  color: #002d5f;
+}
+.secondnavbar .secondheader .secondrightsidenavbar a:hover {
+  opacity: 50%;
+}
+.secondnavbar .secondheader .secondrightsidenavbar ul, .secondnavbar .secondheader .secondrightsidenavbar li {
+  list-style: none;
+  list-style: none;
+  display: flex;
+  color: #002d5f;
+  margin-top: 8px;
+  margin-left: 10px;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.thirdnavbar {
+  margin-top: -20px;
+}
+.thirdnavbar .thirdheader {
+  background-color: #b59458;
+  height: 40px;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar {
+  font-size: 0.9em;
+  color: white;
+  margin-left: 200px;
+  padding: 12px;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar ul, .thirdnavbar .thirdheader .thirdmiddlenavbar li {
+  display: flex;
+  margin-left: 20px;
+  opacity: 80%;
+  font-size: 1.05em;
+}
+.thirdnavbar .thirdheader .thirdmiddlenavbar ul ul, .thirdnavbar .thirdheader .thirdmiddlenavbar ul li:hover, .thirdnavbar .thirdheader .thirdmiddlenavbar li ul, .thirdnavbar .thirdheader .thirdmiddlenavbar li li:hover {
+  opacity: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+.contactusmainimg {
+  width: 100%;
+}
+.contactusmainimg img {
+  width: 100%;
+}
+
+.texts {
+  margin: 10px 200px;
+}
+.texts i {
+  font-size: 3em;
+  color: #002d5f;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.texts h1 {
+  color: #002d5f;
+  font-weight: bold;
+}
+.texts h3 {
+  color: #002d5f;
+  font-size: 1.1em;
+}
+.texts p {
+  color: #002d5f;
+  font-size: 1.2em;
+}
+
+.secondcontainer {
+  display: inline-block;
+  margin: 50px 200px;
+}
+.secondcontainer p {
+  color: gray;
+}
+.secondcontainer form {
+  display: inline-block;
+}
+.secondcontainer form input {
+  width: 1350px;
+  height: 50px;
+  border: none;
+  background-color: #eef1f8;
+  color: #002d5f;
+  font-size: 1.1em;
+}
+.secondcontainer form textarea {
+  background-color: #eef1f8;
+  font-size: 1.2em;
+  border: none;
+  width: 1350px;
+  color: #002d5f;
+}/*# sourceMappingURL=contact.css.map */

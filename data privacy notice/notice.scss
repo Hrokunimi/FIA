@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// header for all
+
+header{
+    background-color: #002d5f;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    
+    
+    
+    .leftsidenavbar{
+        display: flex;
+        margin-left: 70px;
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            font-size: 1.1em;
+            margin-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+
+    }
+
+    .rightsidenavbar{
+        display: flex;
+        position: sticky;
+        
+
+
+        ul,li{
+            display: flex;
+            list-style: none;
+            color: white;
+            font-size: 0.99em;
+            margin-left: 40px;
+            margin-top: 15px;
+            cursor: pointer;
+
+            i{
+                font-size: 1.5em;
+                margin: 12px 50px; 
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// second header for all
+
+.secondnavbar{
+    
+
+    .secondheader{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 80px;
+
+        .secondleftsidenavbar{
+            display: flex;
+            margin-left: 60px;
+
+            ul,li{
+                list-style: none;
+                display: flex;
+                color: #002d5f;
+                font-size: 1.1em;
+                margin: 10px 0px;
+                padding-right: 50px;
+                cursor: pointer;
+            }
+        }
+
+        .secondrightsidenavbar{
+            display: flex;
+            margin-left: -50px;
+
+            a{
+                text-decoration: none;
+                color: #002d5f;
+                
+            }
+
+            a:hover{
+               opacity: 50%; 
+            }
+
+
+            ul,li{
+                list-style: none;
+                list-style: none;
+                display: flex;
+                color: #002d5f;
+                margin-top: 8px;
+                margin-left: 10px;
+                font-size: 1.4em;
+                cursor: pointer;
+            }
+        }
+    }
+ 
+}
+
+.thirdnavbar{
+    margin-top: -20px;
+
+
+    .thirdheader{
+        background-color: #b59458;
+        height: 40px;
+
+        .thirdmiddlenavbar{
+            font-size: 0.9em;
+            color: white;
+            margin-left: 200px;
+            padding: 12px;
+
+            ul,li{
+                display: flex;
+                margin-left: 20px;
+                opacity: 80%;
+                font-size: 1.05em;
+                
+
+                ul,li:hover{
+                    opacity: 100%;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// first container
+
+.noticemainimg{
+    width: 100%;
+
+    img{
+        width: 100%;
+    }
+}
+
+.firstcontainer{
+    width: 88%;
+    margin: 10px 200px;
+    
+    i{
+        font-size: 3em;
+        color: #002d5f;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    .firstcontainertexts{
+        width: 90%;
+
+        h1{
+            color: #002d5f;
+            font-weight: bolder;
+        }
+        h3{
+            color: #002d5f;
+        }
+
+        ul,li{
+            font-size: 1.1em;
+            color: #1e528f;
+            margin-left: 5px;
+            list-style: disc;
+
+            span{
+                color: #002d5f;
+                font-weight: 600;
+            }
+        }
+
+        p{
+            color: #1e528f;
+            font-size: 1.2em;
+        }
+    }
+}
+
+// second container 
+
+.secondcontainer{
+    width: 90%;
+    margin: 10px 0px;
+    h3{
+        color: #002d5f;
+    }
+
+    ul,li{
+        font-size: 1.1em;
+        color: #1e528f;
+        margin-left: 5px;
+        list-style: disc;
+    }
+
+    span{
+        color: #002d5f;
+        font-weight: 600;
+    }
+
+    p{
+        color: #1e528f;
+        font-size: 1.2em;
+    }
+}
+
